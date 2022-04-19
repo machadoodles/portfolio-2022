@@ -16,7 +16,7 @@ const Footer = () => {
           </form>
         </div>
         <div className="socials md:w-[50%] md:ml-32 mt-12 md:mt-28">
-          <h1 className='text-2xl'>Find me on my socials!!!😁</h1>
+          <h1 className='text-2xl'>Lets socialize 😊</h1>
           <div className="social-links flex items-center mt-5 md:mt-12">
             <a href="https://twitter.com/machadoodles" className='mr-5' target={`_blank`}>
               <FaTwitter className='text-4xl'/>

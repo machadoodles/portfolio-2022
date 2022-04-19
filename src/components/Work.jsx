@@ -87,7 +87,8 @@ const Work = () => {
                 <source src={`https://i.imgur.com/wxXeE9O.mp4`} />
               </video>
             </div>
-            <div className="right-vid lg:ml-16 lg:w-[70%] mt-5">
+            <br />
+            <div className="right-vid lg:ml-16 lg:w-[65%] mt-5">
                 <div className='flex items-center hover:text-[#7794FF] ease-in duration-300'>
                 <a href="http://www.insulationandroofingrios.com" target={`_blank`} className='flex items-center hover:text-[#7794FF] ease-in duration-300'><h1 className='lg:text-3xl text-2xl font-medium'>Insulation and Roofing Rios</h1>
                   <BsArrowUpRightCircle className='lg:text-3xl text-2xl ml-5'/></a>
