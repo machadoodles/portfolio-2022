@@ -77,19 +77,19 @@ const ImageSection = () => {
           <div className='md:w-[50%] w-full' id='mycontact' >
             <div className='info w-[0px]'></div>
             <h3 className='font-extralight myText pt-8 text-[#D9D9D9]'>CONTACT</h3>
-            <a href='mailto:edgarmchad2@gmail.com'><p className='text-sm dance'>edgarmchad2@gmail.com</p></a>
+            <p className='text-sm dance'>adeyunze05@gmail.com</p>
           </div>
           <div className='md:w-[50%] w-full ml-5'>
             <div className="info w-[0px]"></div>
             <h3 className='font-extralight myText pt-8 text-[#D9D9D9]'>LOCATION</h3>
-            <p className='dance'>San Diego, California</p>
+            <p className='dance'>Lagos, Nigeria</p>
           </div>
         </div>
         <div className='img-cont md:w-[500px] md:pl-5 opacity-0'>
-          <img src={`https://i.imgur.com/wHMnnxV.jpg`} alt="avatar" className='rounded w-full'/>
+          <img src={`https://i.imgur.com/RDZkncO.jpg`} alt="avatar" className='rounded w-full'/>
         </div>
       </section>
-      <h1 className='md:text-3xl header text-2xl mt-32 md:mt-40 md:leading-[40px]'>Having worked on websites and applications from ideation to launch, I have valuable experience working with modern technologies like JavaScript and it's frameworks. Attending UC San Diego Extension CyberSecurity Bootcamp helped me obtain the necessary knowledge to pass CompTIA's Security+ certification exam.  </h1>
+      <h1 className='md:text-3xl header text-2xl mt-32 md:mt-40 md:leading-[40px]'>Having worked on websites and applications from ideation to launch, I have valuable experience working with modern technologies like JavaScript and it's frameworks. I also have experience working with prototyping tools like Figma.</h1>
     </>
   )
 }
