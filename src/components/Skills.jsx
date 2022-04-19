@@ -1,8 +1,9 @@
 import { React, useRef, useEffect} from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaWordpress, FaGitAlt, FaTerminal, FaGithub, FaNodeJs, FaVuejs, FaLinux } from 'react-icons/fa';
-import { SiTailwindcss, SiBootstrap, SiVisualstudio } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaWordpress, FaGitAlt, FaTerminal, FaGithub, FaNodeJs, FaVuejs, FaLinux, FaFile, FaNetworkWired, FaShieldAlt,  } from 'react-icons/fa';
+import { SiTailwindcss, SiBootstrap, SiVisualstudio, SiWireshark } from 'react-icons/si';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 
 const Skills = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -113,8 +114,30 @@ const Skills = () => {
           <SiTailwindcss  className='text-7xl'/>
           <h3 className='mt-3 text-lg'>TalwindCSS</h3>
         </div>
+        <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <FaNetworkWired className='text-7xl'/>
+          <h3 className='mt-3 text-lg'>CompTIA Security+ Certified</h3>
+        </div>
+        <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <FaShieldAlt className='text-7xl'/>
+          <h3 className='mt-3 text-lg'>Burp Suite</h3>
+        </div>
+        <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <SiWireshark className='text-7xl'/>
+          <h3 className='mt-3 text-lg'>WireShark</h3>
+        </div>
+        
+        
         
       </div>
+      <div  className='skills-top'>
+      <div className='mt-40 mb-20 skills' ref={ref}>
+      <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <FaFile  className='text-7xl'/>
+          <a href="https://docs.google.com/document/d/13ELmm21bHfeLYDoTZWOKPSA6kOLBwj1nNb83mjtJdU4/edit?usp=sharing"><h3 className='mt-3 text-lg'>Resume Download</h3></a>
+        </div>
+        </div>
+        </div>
     </div>
   )
 }

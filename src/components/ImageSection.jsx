@@ -77,7 +77,7 @@ const ImageSection = () => {
           <div className='md:w-[50%] w-full' id='mycontact' >
             <div className='info w-[0px]'></div>
             <h3 className='font-extralight myText pt-8 text-[#D9D9D9]'>CONTACT</h3>
-            <p className='text-sm dance'>edgarmchad2@gmail.com</p>
+            <a href='mailto:edgarmchad2@gmail.com'><p className='text-sm dance'>edgarmchad2@gmail.com</p></a>
           </div>
           <div className='md:w-[50%] w-full ml-5'>
             <div className="info w-[0px]"></div>
@@ -89,7 +89,7 @@ const ImageSection = () => {
           <img src={`https://i.imgur.com/wHMnnxV.jpg`} alt="avatar" className='rounded w-full'/>
         </div>
       </section>
-      <h1 className='md:text-3xl header text-2xl mt-32 md:mt-40 md:leading-[40px]'>Having worked on websites and applications from ideation to launch, I have valuable experience working with modern technologies like JavaScript and it's frameworks. I also have experience working with prototyping tools like Figma.</h1>
+      <h1 className='md:text-3xl header text-2xl mt-32 md:mt-40 md:leading-[40px]'>Having worked on websites and applications from ideation to launch, I have valuable experience working with modern technologies like JavaScript and it's frameworks. Attending UC San Diego Extension CyberSecurity Bootcamp helped me obtain the necessary knowledge to pass CompTIA's Security+ certification exam.  </h1>
     </>
   )
 }
