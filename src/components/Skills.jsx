@@ -1,5 +1,5 @@
 import { React, useRef, useEffect} from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaWordpress, FaGitAlt, FaTerminal, FaGithub, FaNodeJs, FaVuejs, FaLinux, FaFile, FaNetworkWired, FaShieldAlt,  } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaWordpress, FaGitAlt, FaTerminal, FaGithub, FaNodeJs, FaVuejs, FaLinux, FaFile, FaNetworkWired, FaShieldAlt, FaPython,  } from 'react-icons/fa';
 import { SiTailwindcss, SiBootstrap, SiVisualstudio, SiWireshark } from 'react-icons/si';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -71,6 +71,10 @@ const Skills = () => {
         <div className="name-cont flex flex-col items-center p-3 md:p-5">
           <FaLinux className='text-7xl'/>
           <h3 className='mt-3 text-lg'>Linux</h3>
+        </div>
+        <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <FaPython className='text-7xl'/>
+          <h3 className='mt-3 text-lg'>Python</h3>
         </div>
         <div className="name-cont flex flex-col items-center p-3 md:p-5">
           <FaReact className='text-7xl'/>
