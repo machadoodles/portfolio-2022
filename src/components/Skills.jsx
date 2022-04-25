@@ -119,10 +119,6 @@ const Skills = () => {
           <h3 className='mt-3 text-lg'>TalwindCSS</h3>
         </div>
         <div className="name-cont flex flex-col items-center p-3 md:p-5">
-          <FaNetworkWired className='text-7xl'/>
-          <h3 className='mt-3 text-lg'>CompTIA Security+ Certified</h3>
-        </div>
-        <div className="name-cont flex flex-col items-center p-3 md:p-5">
           <FaShieldAlt className='text-7xl'/>
           <h3 className='mt-3 text-lg'>Burp Suite</h3>
         </div>
@@ -130,7 +126,10 @@ const Skills = () => {
           <SiWireshark className='text-7xl'/>
           <h3 className='mt-3 text-lg'>WireShark</h3>
         </div>
-        
+        <div className="name-cont flex flex-col items-center p-3 md:p-5">
+          <FaNetworkWired className='text-7xl'/>
+          <h3 className='mt-3 text-lg'>CompTIA Security+ Certified</h3>
+        </div>
         
         
       </div>
