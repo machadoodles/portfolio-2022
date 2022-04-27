@@ -117,11 +117,11 @@ const Work = () => {
                 <a href="http://www.nowintransit.com" target={`_blank`} className='flex items-center hover:text-[#7794FF] ease-in duration-300'><h1 className='lg:text-3xl text-2xl font-medium'>Now In Transit</h1>
                   <BsArrowUpRightCircle className='lg:text-3xl text-2xl ml-5'/></a>
                 </div>
-                <p className='mt-5 text-lg font-light'>On this project the client already had a website hosted on Wix but wanted to keep what he bought and host it on his own domain. I wireframed everything and designed what couldn't translate. </p>
+                <p className='mt-5 text-lg font-light'>On this project the client already had a website hosted on a different platform but wanted to keep what he bought and host it on his own domain. I wireframed everything and designed what couldn't translate. </p>
                 <div className="tags mt-10 flex items-center flex-wrap mt-[-2px] mr-[-3px]">
                   <span className='text-base text-slate-300 px-7 py-2 border rounded-full text-sm tracking-widest mt-[15px] lg:mr-[3px] mr-[15px]'>HTML & CSS</span>
                   <span className='text-base text-slate-300 px-7 py-2 border rounded-full text-sm tracking-widest mt-[15px] lg:mr-[3px] mr-[15px] lg:ml-3'>BRANDING + SEO</span>
-                  <span className='text-base text-slate-300 px-7 py-2 border rounded-full text-sm tracking-widest mt-[15px] lg:mr-[3px] mr-[15px] lg:ml-3'>Javascript</span>
+                  <span className='text-base text-slate-300 px-7 py-2 border rounded-full text-sm tracking-widest mt-[15px] lg:mr-[3px] mr-[15px] lg:ml-3'>Bootstrap / JQuery</span>
                 </div>
             </div>
           </div>
