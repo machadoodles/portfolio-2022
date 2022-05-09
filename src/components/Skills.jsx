@@ -137,7 +137,7 @@ const Skills = () => {
       <div className='mt-40 mb-20 skills' ref={ref}>
       <div className="name-cont flex flex-col items-center p-3 md:p-5">
           <FaFile  className='text-7xl'/>
-          <a href="https://docs.google.com/document/d/13ELmm21bHfeLYDoTZWOKPSA6kOLBwj1nNb83mjtJdU4/edit?usp=sharing"><h3 className='mt-3 text-lg'>Resume Download</h3></a>
+          <a href="https://drive.google.com/file/d/1ji61mbKZCFMd-wxGxFteJN8GX9lfMriT/view?usp=sharing"><h3 className='mt-3 text-lg'>Resume Download</h3></a>
         </div>
         </div>
         </div>
